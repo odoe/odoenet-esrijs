@@ -1,0 +1,12 @@
+node_modules/*
+.vscode/*
+widgets/*
+html-report/*
+.baseDir*
+.tsdrc
+.tscache
+npm-debug.log
+yarn.lock
+coverage-final.*
+.firebaserc
+firebase.json

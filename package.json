@@ -1,0 +1,49 @@
+{
+  "name": "odoenet-esrijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "widgets/main.js",
+  "watch": {
+    "webpack": "./src/**"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "build": "del widgets && webpack",
+    "prettify": "prettier 'src/**/*.{ts,tsx}' --write && tslint 'src/**/*.{ts,tsx}' --fix",
+    "prepare": "del widgets && webpack",
+    "watch": "npm-watch"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "tslint --fix",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "esri",
+    "arcgis",
+    "typescript"
+  ],
+  "author": "Rene Rubalcava <rrubalcava@odoe.net",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/arcgis-js-api": "^4.4.0",
+    "cpx": "^1.5.0",
+    "del-cli": "^1.0.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.3",
+    "npm-watch": "^0.2.0",
+    "prettier": "^1.4.4",
+    "ts-loader": "^2.3.2",
+    "tslint": "^5.4.3",
+    "tslint-config-prettier": "^1.1.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.4.2",
+    "uglify-js": "^3.0.27",
+    "webpack": "^3.5.4"
+  },
+  "dependencies": {
+    "jss": "^8.1.0"
+  }
+}
