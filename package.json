@@ -4,7 +4,7 @@
   "description": "This is a collection of experimental widgets for the ArcGIS API 4 for JavaScript",
   "main": "widgets/OverviewMap.js",
   "watch": {
-    "webpack": "./src/**"
+    "build": "./src/**"
   },
   "scripts": {
     "precommit": "lint-staged",

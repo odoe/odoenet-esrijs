@@ -1,7 +1,7 @@
 odoenet-esrijs
 ==============
 
-:bulb: This is a collection of experimental widgets for the [ArcGIS API 4 for JavaScript](https://developers.arcgis.com/javascript/).
+:bulb: This is a collection of experimental widgets for the [ArcGIS API 4 for JavaScript](https://developers.arcgis.com/javascript/) :bulb:
 
 Can see some details in this [video](https://www.youtube.com/watch?v=69ijDR1H_WA) on the project.
 
