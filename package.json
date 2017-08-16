@@ -1,6 +1,6 @@
 {
   "name": "odoenet-esrijs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a collection of experimental widgets for the ArcGIS API 4 for JavaScript",
   "main": "widgets/OverviewMap.js",
   "watch": {
