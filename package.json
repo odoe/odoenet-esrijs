@@ -1,8 +1,8 @@
 {
   "name": "odoenet-esrijs",
   "version": "1.0.0",
-  "description": "",
-  "main": "widgets/main.js",
+  "description": "This is a collection of experimental widgets for the ArcGIS API 4 for JavaScript",
+  "main": "widgets/OverviewMap.js",
   "watch": {
     "webpack": "./src/**"
   },
@@ -25,7 +25,12 @@
     "arcgis",
     "typescript"
   ],
-  "author": "Rene Rubalcava <rrubalcava@odoe.net",
+  "repository": "odoe/odoenet-esrijs",
+  "author": {
+    "name": "Rene Rubalcava",
+    "email": "rrubalcava@odoe.net",
+    "url": "https://github.com/odoe"
+  },
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/arcgis-js-api": "^4.4.0",
